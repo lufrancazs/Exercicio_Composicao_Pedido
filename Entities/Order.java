@@ -84,7 +84,7 @@ public class Order {
 		sb.append("Client: ");
 		sb.append(client + "\n");
 		
-		sb.append("Order items: ");
+		sb.append("Order items: \n");
 		
 		for(OrderItem item : orderItem) {
 			sb.append(item + "\n");
